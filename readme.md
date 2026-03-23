@@ -1,13 +1,10 @@
 # My lecture notes & ML sandbox 
 
 Topics covered:
-- ML
-- Data Science
-- Jupyter Labs
-- Python
-- ~~Anaconda~~
+- Micrograd from scratch
 - Pandas
 - MatPlotLib
+
 
 # Intall
 
