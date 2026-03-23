@@ -20,6 +20,14 @@ install:
 run:
 	docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v $(shell pwd):/home/jovyan/work jupyter/scipy-notebook
 
+.PHONY: install-scipy-ruby
+install-scipy-ruby:
+	docker build -t jupyter/scipy-ruby .
+
+.PHONY: run-ruby
+run-ruby:
+	docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v $(shell pwd):/home/jovyan/work jupyter/scipy-ruby
+
 .PHONY: usage
 usage:
 	@echo
@@ -27,6 +35,8 @@ usage:
 	@echo
 	@echo "Getting started"
 	@echo
-	@echo "${YELLOW}make install${NC}                  install dependencies"
+	@echo "${YELLOW}make install${NC}                  pull/install scipy-notebook docker image"
 	@echo "${YELLOW}make run${NC}                      launch app"
 	@echo
+	@echo "${YELLOW}make install-scipy-ruby${NC}       build scipy-notebook image with Ruby kernel"
+	@echo "${YELLOW}make run-ruby${NC}                 launch app with Ruby kernel"
