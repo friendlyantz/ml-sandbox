@@ -9,9 +9,9 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 206)">
 <title>G</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-206 2107.28,-206 2107.28,4 -4,4"/>
-<!-- v_10960 -->
+<!-- v_4520 -->
 <g id="node1" class="node">
-<title>v_10960</title>
+<title>v_4520</title>
 <polygon fill="none" stroke="black" points="1868.28,-54.5 1868.28,-90.5 2103.28,-90.5 2103.28,-54.5 1868.28,-54.5"/>
 <text text-anchor="middle" x="1900.78" y="-68.8" font-family="Times,serif" font-size="14.00">output O</text>
 <polyline fill="none" stroke="black" points="1933.28,-54.5 1933.28,-90.5 "/>
@@ -19,21 +19,21 @@
 <polyline fill="none" stroke="black" points="2021.28,-54.5 2021.28,-90.5 "/>
 <text text-anchor="middle" x="2062.28" y="-68.8" font-family="Times,serif" font-size="14.00">grad 1.0000</text>
 </g>
-<!-- op_10960_tanh &#45; squashing/activation func -->
+<!-- op_4520_tanh &#45; squashing/activation func -->
 <g id="node2" class="node">
-<title>op_10960_tanh &#45; squashing/activation func</title>
+<title>op_4520_tanh &#45; squashing/activation func</title>
 <ellipse fill="none" stroke="black" cx="1708.14" cy="-72.5" rx="124.28" ry="18"/>
 <text text-anchor="middle" x="1708.14" y="-68.8" font-family="Times,serif" font-size="14.00">tanh &#45; squashing/activation func</text>
 </g>
-<!-- op_10960_tanh &#45; squashing/activation func&#45;&gt;v_10960 -->
+<!-- op_4520_tanh &#45; squashing/activation func&#45;&gt;v_4520 -->
 <g id="edge1" class="edge">
-<title>op_10960_tanh &#45; squashing/activation func&#45;&gt;v_10960</title>
+<title>op_4520_tanh &#45; squashing/activation func&#45;&gt;v_4520</title>
 <path fill="none" stroke="black" d="M1832.45,-72.5C1841,-72.5 1849.62,-72.5 1858.19,-72.5"/>
 <polygon fill="black" stroke="black" points="1858.22,-76 1868.22,-72.5 1858.22,-69 1858.22,-76"/>
 </g>
-<!-- v_10920 -->
+<!-- v_4500 -->
 <g id="node3" class="node">
-<title>v_10920</title>
+<title>v_4500</title>
 <polygon fill="none" stroke="black" points="1305,-54.5 1305,-90.5 1548,-90.5 1548,-54.5 1305,-54.5"/>
 <text text-anchor="middle" x="1341.5" y="-68.8" font-family="Times,serif" font-size="14.00">NEURON</text>
 <polyline fill="none" stroke="black" points="1378,-54.5 1378,-90.5 "/>
@@ -41,27 +41,27 @@
 <polyline fill="none" stroke="black" points="1466,-54.5 1466,-90.5 "/>
 <text text-anchor="middle" x="1507" y="-68.8" font-family="Times,serif" font-size="14.00">grad 0.5001</text>
 </g>
-<!-- v_10920&#45;&gt;op_10960_tanh &#45; squashing/activation func -->
+<!-- v_4500&#45;&gt;op_4520_tanh &#45; squashing/activation func -->
 <g id="edge6" class="edge">
-<title>v_10920&#45;&gt;op_10960_tanh &#45; squashing/activation func</title>
+<title>v_4500&#45;&gt;op_4520_tanh &#45; squashing/activation func</title>
 <path fill="none" stroke="black" d="M1548.12,-72.5C1556.62,-72.5 1565.22,-72.5 1573.78,-72.5"/>
 <polygon fill="black" stroke="black" points="1573.81,-76 1583.81,-72.5 1573.81,-69 1573.81,-76"/>
 </g>
-<!-- op_10920_+ -->
+<!-- op_4500_+ -->
 <g id="node4" class="node">
-<title>op_10920_+</title>
+<title>op_4500_+</title>
 <ellipse fill="none" stroke="black" cx="1242" cy="-72.5" rx="27" ry="18"/>
 <text text-anchor="middle" x="1242" y="-68.8" font-family="Times,serif" font-size="14.00">+</text>
 </g>
-<!-- op_10920_+&#45;&gt;v_10920 -->
+<!-- op_4500_+&#45;&gt;v_4500 -->
 <g id="edge2" class="edge">
-<title>op_10920_+&#45;&gt;v_10920</title>
+<title>op_4500_+&#45;&gt;v_4500</title>
 <path fill="none" stroke="black" d="M1269.15,-72.5C1276.53,-72.5 1285.1,-72.5 1294.35,-72.5"/>
 <polygon fill="black" stroke="black" points="1294.63,-76 1304.63,-72.5 1294.63,-69 1294.63,-76"/>
 </g>
-<!-- v_10880 -->
+<!-- v_4460 -->
 <g id="node5" class="node">
-<title>v_10880</title>
+<title>v_4460</title>
 <polygon fill="none" stroke="black" points="899,-82.5 899,-118.5 1179,-118.5 1179,-82.5 899,-82.5"/>
 <text text-anchor="middle" x="952" y="-96.8" font-family="Times,serif" font-size="14.00">Sum x1w1x2w2</text>
 <polyline fill="none" stroke="black" points="1005,-82.5 1005,-118.5 "/>
@@ -69,27 +69,27 @@
 <polyline fill="none" stroke="black" points="1097,-82.5 1097,-118.5 "/>
 <text text-anchor="middle" x="1138" y="-96.8" font-family="Times,serif" font-size="14.00">grad 0.5001</text>
 </g>
-<!-- v_10880&#45;&gt;op_10920_+ -->
+<!-- v_4460&#45;&gt;op_4500_+ -->
 <g id="edge7" class="edge">
-<title>v_10880&#45;&gt;op_10920_+</title>
+<title>v_4460&#45;&gt;op_4500_+</title>
 <path fill="none" stroke="black" d="M1169.29,-82.49C1182.32,-80.67 1194.64,-78.96 1205.28,-77.48"/>
 <polygon fill="black" stroke="black" points="1205.9,-80.92 1215.32,-76.08 1204.93,-73.99 1205.9,-80.92"/>
 </g>
-<!-- op_10880_+ -->
+<!-- op_4460_+ -->
 <g id="node6" class="node">
-<title>op_10880_+</title>
+<title>op_4460_+</title>
 <ellipse fill="none" stroke="black" cx="836" cy="-100.5" rx="27" ry="18"/>
 <text text-anchor="middle" x="836" y="-96.8" font-family="Times,serif" font-size="14.00">+</text>
 </g>
-<!-- op_10880_+&#45;&gt;v_10880 -->
+<!-- op_4460_+&#45;&gt;v_4460 -->
 <g id="edge3" class="edge">
-<title>op_10880_+&#45;&gt;v_10880</title>
+<title>op_4460_+&#45;&gt;v_4460</title>
 <path fill="none" stroke="black" d="M863.28,-100.5C870.7,-100.5 879.35,-100.5 888.74,-100.5"/>
 <polygon fill="black" stroke="black" points="888.78,-104 898.78,-100.5 888.78,-97 888.78,-104"/>
 </g>
-<!-- v_10840 -->
+<!-- v_4420 -->
 <g id="node7" class="node">
-<title>v_10840</title>
+<title>v_4420</title>
 <polygon fill="none" stroke="black" points="468,-110.5 468,-146.5 773,-146.5 773,-110.5 468,-110.5"/>
 <text text-anchor="middle" x="533.5" y="-124.8" font-family="Times,serif" font-size="14.00">dendrite signal x1w1</text>
 <polyline fill="none" stroke="black" points="599,-110.5 599,-146.5 "/>
@@ -97,27 +97,27 @@
 <polyline fill="none" stroke="black" points="691,-110.5 691,-146.5 "/>
 <text text-anchor="middle" x="732" y="-124.8" font-family="Times,serif" font-size="14.00">grad 0.5001</text>
 </g>
-<!-- v_10840&#45;&gt;op_10880_+ -->
+<!-- v_4420&#45;&gt;op_4460_+ -->
 <g id="edge8" class="edge">
-<title>v_10840&#45;&gt;op_10880_+</title>
+<title>v_4420&#45;&gt;op_4460_+</title>
 <path fill="none" stroke="black" d="M758.83,-110.49C773.58,-108.56 787.48,-106.73 799.26,-105.19"/>
 <polygon fill="black" stroke="black" points="799.99,-108.62 809.45,-103.85 799.08,-101.68 799.99,-108.62"/>
 </g>
-<!-- op_10840_* -->
+<!-- op_4420_* -->
 <g id="node8" class="node">
-<title>op_10840_*</title>
+<title>op_4420_*</title>
 <ellipse fill="none" stroke="black" cx="405" cy="-128.5" rx="27" ry="18"/>
 <text text-anchor="middle" x="405" y="-124.8" font-family="Times,serif" font-size="14.00">*</text>
 </g>
-<!-- op_10840_*&#45;&gt;v_10840 -->
+<!-- op_4420_*&#45;&gt;v_4420 -->
 <g id="edge4" class="edge">
-<title>op_10840_*&#45;&gt;v_10840</title>
+<title>op_4420_*&#45;&gt;v_4420</title>
 <path fill="none" stroke="black" d="M432.18,-128.5C439.62,-128.5 448.3,-128.5 457.78,-128.5"/>
 <polygon fill="black" stroke="black" points="457.93,-132 467.93,-128.5 457.93,-125 457.93,-132"/>
 </g>
-<!-- v_10760 -->
+<!-- v_4340 -->
 <g id="node9" class="node">
-<title>v_10760</title>
+<title>v_4340</title>
 <polygon fill="none" stroke="black" points="0,-165.5 0,-201.5 342,-201.5 342,-165.5 0,-165.5"/>
 <text text-anchor="middle" x="84" y="-179.8" font-family="Times,serif" font-size="14.00">axon signal from neuron x1</text>
 <polyline fill="none" stroke="black" points="168,-165.5 168,-201.5 "/>
@@ -125,15 +125,15 @@
 <polyline fill="none" stroke="black" points="256,-165.5 256,-201.5 "/>
 <text text-anchor="middle" x="299" y="-179.8" font-family="Times,serif" font-size="14.00">grad &#45;1.5002</text>
 </g>
-<!-- v_10760&#45;&gt;op_10840_* -->
+<!-- v_4340&#45;&gt;op_4420_* -->
 <g id="edge9" class="edge">
-<title>v_10760&#45;&gt;op_10840_*</title>
+<title>v_4340&#45;&gt;op_4420_*</title>
 <path fill="none" stroke="black" d="M306.84,-165.49C318.83,-162.87 330.69,-159.89 342,-156.5 352.8,-153.27 364.17,-148.55 374.18,-143.91"/>
 <polygon fill="black" stroke="black" points="375.8,-147.01 383.3,-139.53 372.77,-140.7 375.8,-147.01"/>
 </g>
-<!-- v_10780 -->
+<!-- v_4360 -->
 <g id="node10" class="node">
-<title>v_10780</title>
+<title>v_4360</title>
 <polygon fill="none" stroke="black" points="27,-110.5 27,-146.5 315,-146.5 315,-110.5 27,-110.5"/>
 <text text-anchor="middle" x="84" y="-124.8" font-family="Times,serif" font-size="14.00">synapse wight w1</text>
 <polyline fill="none" stroke="black" points="141,-110.5 141,-146.5 "/>
@@ -141,15 +141,15 @@
 <polyline fill="none" stroke="black" points="233,-110.5 233,-146.5 "/>
 <text text-anchor="middle" x="274" y="-124.8" font-family="Times,serif" font-size="14.00">grad 1.0001</text>
 </g>
-<!-- v_10780&#45;&gt;op_10840_* -->
+<!-- v_4360&#45;&gt;op_4420_* -->
 <g id="edge10" class="edge">
-<title>v_10780&#45;&gt;op_10840_*</title>
+<title>v_4360&#45;&gt;op_4420_*</title>
 <path fill="none" stroke="black" d="M315.3,-128.5C334.6,-128.5 352.83,-128.5 367.69,-128.5"/>
 <polygon fill="black" stroke="black" points="367.88,-132 377.88,-128.5 367.88,-125 367.88,-132"/>
 </g>
-<!-- v_10860 -->
+<!-- v_4440 -->
 <g id="node11" class="node">
-<title>v_10860</title>
+<title>v_4440</title>
 <polygon fill="none" stroke="black" points="470,-55.5 470,-91.5 771,-91.5 771,-55.5 470,-55.5"/>
 <text text-anchor="middle" x="535.5" y="-69.8" font-family="Times,serif" font-size="14.00">dendrite signal x2w2</text>
 <polyline fill="none" stroke="black" points="601,-55.5 601,-91.5 "/>
@@ -157,27 +157,27 @@
 <polyline fill="none" stroke="black" points="689,-55.5 689,-91.5 "/>
 <text text-anchor="middle" x="730" y="-69.8" font-family="Times,serif" font-size="14.00">grad 0.5001</text>
 </g>
-<!-- v_10860&#45;&gt;op_10880_+ -->
+<!-- v_4440&#45;&gt;op_4460_+ -->
 <g id="edge11" class="edge">
-<title>v_10860&#45;&gt;op_10880_+</title>
+<title>v_4440&#45;&gt;op_4460_+</title>
 <path fill="none" stroke="black" d="M763.91,-91.51C776.74,-93.13 788.79,-94.66 799.2,-95.97"/>
 <polygon fill="black" stroke="black" points="799.06,-99.48 809.42,-97.26 799.93,-92.54 799.06,-99.48"/>
 </g>
-<!-- op_10860_* -->
+<!-- op_4440_* -->
 <g id="node12" class="node">
-<title>op_10860_*</title>
+<title>op_4440_*</title>
 <ellipse fill="none" stroke="black" cx="405" cy="-73.5" rx="27" ry="18"/>
 <text text-anchor="middle" x="405" y="-69.8" font-family="Times,serif" font-size="14.00">*</text>
 </g>
-<!-- op_10860_*&#45;&gt;v_10860 -->
+<!-- op_4440_*&#45;&gt;v_4440 -->
 <g id="edge5" class="edge">
-<title>op_10860_*&#45;&gt;v_10860</title>
+<title>op_4440_*&#45;&gt;v_4440</title>
 <path fill="none" stroke="black" d="M432.18,-73.5C440.11,-73.5 449.46,-73.5 459.68,-73.5"/>
 <polygon fill="black" stroke="black" points="459.73,-77 469.73,-73.5 459.73,-70 459.73,-77"/>
 </g>
-<!-- v_10800 -->
+<!-- v_4380 -->
 <g id="node13" class="node">
-<title>v_10800</title>
+<title>v_4380</title>
 <polygon fill="none" stroke="black" points="2,-55.5 2,-91.5 340,-91.5 340,-55.5 2,-55.5"/>
 <text text-anchor="middle" x="86" y="-69.8" font-family="Times,serif" font-size="14.00">axon signal from neuron x2</text>
 <polyline fill="none" stroke="black" points="170,-55.5 170,-91.5 "/>
@@ -185,15 +185,15 @@
 <polyline fill="none" stroke="black" points="258,-55.5 258,-91.5 "/>
 <text text-anchor="middle" x="299" y="-69.8" font-family="Times,serif" font-size="14.00">grad 0.5001</text>
 </g>
-<!-- v_10800&#45;&gt;op_10860_* -->
+<!-- v_4380&#45;&gt;op_4440_* -->
 <g id="edge12" class="edge">
-<title>v_10800&#45;&gt;op_10860_*</title>
+<title>v_4380&#45;&gt;op_4440_*</title>
 <path fill="none" stroke="black" d="M340.3,-73.5C350.21,-73.5 359.48,-73.5 367.71,-73.5"/>
 <polygon fill="black" stroke="black" points="367.9,-77 377.9,-73.5 367.9,-70 367.9,-77"/>
 </g>
-<!-- v_10820 -->
+<!-- v_4400 -->
 <g id="node14" class="node">
-<title>v_10820</title>
+<title>v_4400</title>
 <polygon fill="none" stroke="black" points="29,-0.5 29,-36.5 313,-36.5 313,-0.5 29,-0.5"/>
 <text text-anchor="middle" x="86" y="-14.8" font-family="Times,serif" font-size="14.00">synapse wight w2</text>
 <polyline fill="none" stroke="black" points="143,-0.5 143,-36.5 "/>
@@ -201,15 +201,15 @@
 <polyline fill="none" stroke="black" points="231,-0.5 231,-36.5 "/>
 <text text-anchor="middle" x="272" y="-14.8" font-family="Times,serif" font-size="14.00">grad 0.0000</text>
 </g>
-<!-- v_10820&#45;&gt;op_10860_* -->
+<!-- v_4400&#45;&gt;op_4440_* -->
 <g id="edge13" class="edge">
-<title>v_10820&#45;&gt;op_10860_*</title>
+<title>v_4400&#45;&gt;op_4440_*</title>
 <path fill="none" stroke="black" d="M306.84,-36.51C318.83,-39.13 330.69,-42.11 342,-45.5 352.8,-48.73 364.17,-53.45 374.18,-58.09"/>
 <polygon fill="black" stroke="black" points="372.77,-61.3 383.3,-62.47 375.8,-54.99 372.77,-61.3"/>
 </g>
-<!-- v_10900 -->
+<!-- v_4480 -->
 <g id="node15" class="node">
-<title>v_10900</title>
+<title>v_4480</title>
 <polygon fill="none" stroke="black" points="911.5,-27.5 911.5,-63.5 1166.5,-63.5 1166.5,-27.5 911.5,-27.5"/>
 <text text-anchor="middle" x="954" y="-41.8" font-family="Times,serif" font-size="14.00">Neuron Bias</text>
 <polyline fill="none" stroke="black" points="996.5,-27.5 996.5,-63.5 "/>
@@ -217,9 +217,9 @@
 <polyline fill="none" stroke="black" points="1084.5,-27.5 1084.5,-63.5 "/>
 <text text-anchor="middle" x="1125.5" y="-41.8" font-family="Times,serif" font-size="14.00">grad 0.5001</text>
 </g>
-<!-- v_10900&#45;&gt;op_10920_+ -->
+<!-- v_4480&#45;&gt;op_4500_+ -->
 <g id="edge14" class="edge">
-<title>v_10900&#45;&gt;op_10920_+</title>
+<title>v_4480&#45;&gt;op_4500_+</title>
 <path fill="none" stroke="black" d="M1166.73,-62.52C1180.63,-64.39 1193.81,-66.16 1205.1,-67.68"/>
 <polygon fill="black" stroke="black" points="1204.93,-71.19 1215.31,-69.05 1205.87,-64.25 1204.93,-71.19"/>
 </g>
